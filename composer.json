@@ -1,0 +1,20 @@
+{
+    "name": "bitsping/ios-push",
+    "description": "Sending Push notification from PHP to APN server",
+    "keywords": ["APN","push","IOS"],
+    "type": "library",
+    "license": "GPL-3.0+",
+    "authors": [
+        {
+            "name": "Bitsping Technolgies",
+            "email": "md@bitsping.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+      "psr-4": {
+        "BitsPing\\Push\\": "/"
+      }
+    }    
+}
